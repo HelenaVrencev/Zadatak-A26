@@ -1,0 +1,97 @@
+<html>
+
+<head>
+		<script src="Instrumenti.js"></script>
+		<title>Muzički instrumenti</title>
+		<link rel="stylesheet" type="text/css" href="Instrumenti.css">
+</head>
+
+<body>
+	<br>
+		<h1>MUZIČKI INSTRUMENTI</h1>
+
+			<div id='cssmenu'>
+				<ul>
+					<li class='active'><a href='#'>POČETNA</a></li>
+					<li><a href='O_Autoru.html'>O AUTORU</a></li>
+					<li><a href='Uputstvo.html'>UPUTSTVO</a></li>			   
+				</ul>
+			</div>
+			
+			
+			<audio id="gitara">
+							<source src="Audio/gitara.mp3" type="audio/ogg">						
+			</audio>
+			
+			<audio id="klavir">
+							<source src="Audio/klavir.mp3" type="audio/ogg">					
+			</audio>
+			
+			<audio id="truba">
+							<source src="Audio/truba.mp3" type="audio/ogg">					
+			</audio>
+			
+			<audio id="bubanj">
+							<source src="Audio/bubanj.mp3" type="audio/ogg">					
+			</audio>
+			
+			<audio id="harmonika">
+							<source src="Audio/harmonika.mp3" type="audio/ogg">					
+			</audio>
+			
+			<audio id="violina">
+							<source src="Audio/violina.mp3" type="audio/ogg">				
+			</audio>
+			
+			
+			<table>
+			
+				  <tr id="naslov">
+						<th>IME INSTRUMENTA</th>
+						<th>SLIKA INSTRUMENTA</th>
+						<th>ZVUK INSTRUMENTA</th>
+				  </tr>
+				  
+				  <tr class="instrumenti">
+						<th>GITARA</th>
+						<th> <a href="https://sr.wikipedia.org/sr-ec/Гитара" > <img class="slika" src="Slike/gitara.png"> </a> </th>
+						<th><img class="zvuk"  onmouseover="PlaySound('gitara')" onmouseout="StopSound('gitara')" src="Slike/zvucnik.png"></th>
+				  </tr>
+				  
+				  <tr class="instrumenti">
+						<th>KLAVIR</th>
+						<th><a href="https://sr.wikipedia.org/sr-ec/Клавир"> <img class="slika"  src="Slike/klavir.png"> </a> </th>
+						<th><img class="zvuk" onmouseover="PlaySound('klavir')" onmouseout="StopSound('klavir')" src="Slike/zvucnik.png" > </th>
+				  </tr>
+				  <tr class="instrumenti">
+						<th>TRUBA</th>
+						<th> <a href="https://sr.wikipedia.org/sr-ec/%D0%A2%D1%80%D1%83%D0%B1%D0%B0" > <img class="slika"  src="Slike/truba.png"> </a> </th>
+						<th><img class="zvuk"  onmouseover="PlaySound('truba')" onmouseout="StopSound('truba')" src="Slike/zvucnik.png"></th>
+				  </tr>
+				  
+				  <tr class="instrumenti">
+						<th>BUBANJ</th>
+						<th> <a href="https://sr.wikipedia.org/sr-ec/%D0%91%D1%83%D0%B1%D0%B0%D1%9A" > <img class="slika" src="Slike/bubanj.png"> </a> </th>
+						<th><img class="zvuk"   onmouseover="PlaySound('bubanj')" onmouseout="StopSound('bubanj')" src="Slike/zvucnik.png"></th>
+				  </tr>
+				  			 
+				  <tr class="instrumenti">
+						<th>HARMONIKA</th>
+						<th> <a href="https://sr.wikipedia.org/sr-ec/Хармоника" > <img class="slika" src="Slike/harmonika.png"> </a> </th>
+						<th><img class="zvuk"  onmouseover="PlaySound('harmonika')" onmouseout="StopSound('harmonika')" src="Slike/zvucnik.png"></th>
+				  </tr>
+				  
+				 <tr class="instrumenti">
+						<th>VIOLINA</th>
+						<th> <a href="https://sr.wikipedia.org/sr-ec/Виолина" > <img class="slika"  src="Slike/violina.png"> </a> </th>
+						<th> <a href="" > <img class="zvuk" onmouseover="PlaySound('violina')" onmouseout="StopSound('violina')" src="Slike/zvucnik.png"></th>
+				  </tr>
+								
+			</table>
+						
+						
+						
+
+</body>
+
+</html>
